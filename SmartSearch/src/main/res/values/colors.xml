@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary colors -->
+    <color name="colorPrimary">@color/primary_base</color>
+    <color name="colorPrimaryDark">@color/primary_dark</color>
+    <color name="colorPrimaryLight">#C8DD45</color>
+
+    <!-- Secondary Colors_-->
+    <color name="colorAccent">#92b118</color>
+    <color name="colorAccentDark">#92b118</color>
+    <color name="colorAccentLight">#92b118</color>
+
+    <!-- Secondary Text Colors_-->
+    <color name="colorTextAccent">#5E2E00</color>
+    <color name="colorTextAccentDark">#2E1700</color>
+    <color name="colorTextAccentLight">#FFFFFF</color>
+
+
+    <color name="textColorHint">#52504E</color>
+    <color name="colorBackground">#F1F1F1</color>
+
+    <color name="ColorTextAlarm">#f0605a</color>
+    <color name="colorGreenButton">#1D9A78</color>
+
+    <color name="colorDivider">#80BDBDBD</color>
+    <color name="colorSuccess">#9BE24F</color>
+    <color name="colorHint">#F0F0F0</color>
+
+    <!-- Info Colors -->
+    <color name="colorInfo">#0078C8</color>
+    <color name="colorInfoLight">#049CFF</color>
+    <color name="colorInfoDark">#005B95</color>
+
+    <!-- Info Text Colors -->
+    <color name="colorTextInfo">#FFFFFF</color>
+
+    <!-- Danger Colors-->
+    <color name="colorDanger">#C50A0A</color>
+    <color name="colorDangerLight">#EC2626</color>
+    <color name="colorDangerDark">#A20000</color>
+
+    <!-- Danger Text Colors-->
+    <color name="colorTextDanger">#FFFFFF</color>
+
+    <!-- Warning Colors -->
+    <color name="colorWarning">#F7AE0B</color>
+    <color name="colorWarningLight">#FFC441</color>
+    <color name="colorWarningDark">#C15F01</color>
+
+    <!-- Warning Text Colors -->
+    <color name="colorTextWarning">#000000</color>
+    <color name="colorTextWarningLight">#241900</color>
+    <color name="colorTextWarningDark">#3E2B00</color>
+
+    <!-- Warning Colors -->
+    <color name="colorDefault">#727272</color>
+    <color name="colorDefaultLight">#E0DFDF</color>
+    <color name="colorDefaultDark">#3D3D3D</color>
+
+    <!-- Other Colors -->
+    <color name="colorRed">#CE2C2C</color>
+    <color name="colorBlue">#6CBA1C</color>
+    <color name="colorGreen">#2FA71A</color>
+    <color name="colorSilver">#EFEFEF</color>
+    <color name="colorGray">#757575</color>
+    <color name="colorDark">#000000</color>
+
+    <color name="textColorPrimary">#101B29</color>
+    <color name="textColorTitle">#0F1825</color>
+    <color name="textColorLightTitle">#4F78A3</color>
+    <color name="textColorSecondary">#b6bfca</color>
+
+    <!-- Dark Text Color for Light Background -->
+    <color name="textDarkPrimary">#DE000000</color> <!--DE for %87 opacity-->
+    <color name="textDarkSecondary">#8A000000</color> <!--8A for %54 opacity-->
+    <color name="textDarkDisabled">#61000000</color> <!--61 for %38 opacity-->
+
+    <!-- White Text Color for Dark Background -->
+    <color name="textLightPrimary">#FFFFFF</color> <!--%100 opacity-->
+    <color name="textLightSecondary">#B2FFFFFF</color> <!--B2 for %70 opacity-->
+    <color name="textLightDisabled">#80FFFFFF</color> <!--80 for %50 opacity-->
+    <color name="textLightDisabledDEPRECATED">#4CFFFFFF</color> <!--4C for %30 opacity-->
+
+    <color name="referred_text_color">#505e15</color>
+    <color name="referred_border_color">#cad98f</color>
+    <color name="referred_background">#ebf0d4</color>
+
+    ///////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////
+
+    <!-- Base colors -->
+    <color name="white">#fff</color>
+    <color name="gray_100">#f8f9fa</color>
+    <color name="gray_200">#e9ecef</color>
+    <color name="gray_300">#dee2e6</color>
+    <color name="gray_400">#ced4da</color>
+    <color name="gray_500">#adb5bd</color>
+    <color name="gray_600">#6c757d</color>
+    <color name="gray_700">#495057</color>
+    <color name="gray_800">#343a40</color>
+    <color name="gray_900">#212529</color>
+    <color name="black">#000</color>
+    <color name="blue">#0087CF</color>
+    <color name="indigo">#6610f2</color>
+    <color name="purple">#6f42c1</color>
+    <color name="pink">#e83e8c</color>
+    <color name="red">#dc3545</color>
+    <color name="orange">#fe9e1f</color>
+    <color name="yellow">#ffc107</color>
+    <color name="green">#92b118</color>
+    <color name="teal">#20c997</color>
+    <color name="cyan">#17a2b8</color>
+
+    <!-- App colors -->
+    <color name="app_bg">#e5e5e5</color>
+    <color name="app_text">#333</color>
+    <color name="app_text_muted">#555</color>
+    <color name="app_text_moremuted">#919191</color>
+
+    <!-- Primary colors -->
+    <color name="primary_base">@color/green</color>
+    <color name="primary_dark">#688104</color>
+    <color name="primary_light">#C2DA62</color>
+
+    <color name="primary_bg">@color/primary_light</color>
+    <color name="primary_border">@color/primary_base</color>
+    <color name="primary_text">@color/app_text</color>
+
+    <color name="primary_card_bg">@color/primary_base</color>
+    <color name="primary_card_ripple">@color/primary_light</color>
+    <color name="primary_card_border">@color/primary_dark</color>
+    <color name="primary_card_text">@color/white</color>
+
+    <!-- Primary2 colors -->
+    <color name="primary2_base">@color/orange</color>
+    <color name="primary2_dark">#DD7F01</color>
+    <color name="primary2_light">#FBB85E</color>
+
+    <color name="primary2_bg">@color/primary2_light</color>
+    <color name="primary2_border">@color/primary2_base</color>
+    <color name="primary2_text">@color/black</color>
+
+    <color name="primary2_card_bg">@color/primary2_base</color>
+    <color name="primary2_card_ripple">@color/primary2_light</color>
+    <color name="primary2_card_border">@color/primary2_dark</color>
+    <color name="primary2_card_text">@color/orange</color>
+
+    <!-- Secondary colors -->
+    <color name="secondary_base">@color/gray_400</color>
+    <color name="secondary_light">#DDE0E3</color>
+    <color name="secondary_dark">@color/gray_600</color>
+
+    <color name="secondary_bg">@color/secondary_light</color>
+    <color name="secondary_border">@color/secondary_base</color>
+    <color name="secondary_text">@color/white</color>
+
+    <color name="secondary_card_bg">@color/secondary_base</color>
+    <color name="secondary_card_ripple">@color/secondary_light</color>
+    <color name="secondary_card_border">@color/secondary_dark</color>
+    <color name="secondary_card_text">@color/white</color>
+
+    <!-- Success colors -->
+    <color name="success_base">@color/green</color>
+    <color name="success_dark">#688104</color>
+    <color name="success_light">#C2DA62</color>
+
+    <color name="success_bg">@color/success_light</color>
+    <color name="success_border">@color/success_base</color>
+    <color name="success_text">@color/app_text</color>
+
+    <color name="success_card_bg">@color/success_base</color>
+    <color name="success_card_ripple">@color/success_light</color>
+    <color name="success_card_border">@color/success_dark</color>
+    <color name="success_card_text">@color/white</color>
+
+    <!-- Info colors -->
+    <color name="info_base">@color/blue</color>
+    <color name="info_dark">#0074B3</color>
+    <color name="info_light">#28A0E1</color>
+
+    <color name="info_bg">@color/info_light</color>
+    <color name="info_border">@color/info_base</color>
+    <color name="info_text">@color/black</color>
+
+    <color name="info_card_bg">@color/info_base</color>
+    <color name="info_card_ripple">@color/info_light</color>
+    <color name="info_card_border">@color/info_dark</color>
+    <color name="info_card_text">@color/white</color>
+
+    <!-- Warning colors -->
+    <color name="warning_base">#F6C42F</color>
+    <color name="warning_dark">#916D00</color>
+    <color name="warning_light">#F4C537</color>
+
+    <color name="warning_bg">@color/warning_light</color>
+    <color name="warning_border">@color/warning_base</color>
+    <color name="warning_text">@color/black</color>
+
+    <color name="warning_card_bg">@color/warning_base</color>
+    <color name="warning_card_ripple">@color/warning_light</color>
+    <color name="warning_card_border">@color/warning_dark</color>
+    <color name="warning_card_text">@color/black</color>
+
+    <!-- Danger colors -->
+    <color name="danger_base">@color/red</color>
+    <color name="danger_dark">#7E0B16</color>
+    <color name="danger_light">#F18C95</color>
+
+    <color name="danger_bg">@color/danger_light</color>
+    <color name="danger_border">@color/danger_base</color>
+    <color name="danger_text">@color/black</color>
+
+    <color name="danger_card_bg">@color/danger_base</color>
+    <color name="danger_card_ripple">@color/danger_light</color>
+    <color name="danger_card_border">@color/danger_dark</color>
+    <color name="danger_card_text">@color/white</color>
+
+    <!-- Light colors -->
+    <color name="light_base">@color/gray_100</color>
+    <color name="light_dark">@color/gray_500</color>
+    <color name="light_light">@color/white</color>
+
+    <color name="light_bg">@color/light_base</color>
+    <color name="light_border">#C8CCCF</color>
+    <color name="light_text">@color/black</color>
+
+    <color name="light_card_bg">@color/light_base</color>
+    <color name="light_card_ripple">@color/light_light</color>
+    <color name="light_card_border">@color/light_dark</color>
+    <color name="light_card_text">@color/light_text</color>
+
+    <!-- Dark colors -->
+    <color name="dark_base">@color/gray_800</color>
+    <color name="dark_dark">@color/gray_900</color>
+    <color name="dark_light">@color/gray_700</color>
+
+    <color name="dark_bg">@color/dark_light</color>
+    <color name="dark_border">@color/dark_base</color>
+    <color name="dark_text">@color/gray_500</color>
+
+    <color name="dark_card_bg">@color/dark_base</color>
+    <color name="dark_card_ripple">@color/dark_light</color>
+    <color name="dark_card_border">@color/dark_dark</color>
+    <color name="dark_card_text">@color/dark_text</color>
+
+    ////////////////////////////////////////////////////////
+
+    <color name="activate_text_color">@color/green</color>
+    <color name="de_activate_text_color">@color/gray_500</color>
+
+    <color name="failed_text">@color/red</color>
+
+    <color name="pending_text">@color/yellow</color>
+
+    <color name="selected_text">@color/primary_base</color>
+
+    <color name="divider_light">@color/light_border</color>
+
+    <color name="divider_bright">#E2E4E4</color>
+
+    <color name="seek_bar_progress">@color/orange</color>
+
+    <color name="seek_bar_secondary_progress">@color/cyan</color>
+
+    <color name="colorLightGray">@color/light_base</color>
+
+    <color name="colorIcon">@color/dark_light</color>
+
+    <color name="profileColorIcon">@color/primary2_dark</color>
+
+    <color name="light_grey_bg">@color/light_bg</color>
+
+    <color name="color_moremuted">@color/app_text_moremuted</color>
+
+    <color name="primary_base_text">@color/primary_base</color>
+
+
+</resources>
