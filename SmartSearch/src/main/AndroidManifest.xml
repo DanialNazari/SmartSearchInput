@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.samrt.smartsearch">
     <application
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:windowSoftInputMode="stateAlwaysVisible">
     </application>
 
 </manifest>

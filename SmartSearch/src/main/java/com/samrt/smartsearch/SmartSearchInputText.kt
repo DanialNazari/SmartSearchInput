@@ -6,6 +6,7 @@ import android.text.TextUtils
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.appcompat.widget.SearchView
@@ -15,6 +16,7 @@ import androidx.databinding.ViewDataBinding
 import com.samrt.smartsearch.databinding.CustomeSearchViewBinding
 import com.samrt.smartsearch.textWatcher.CustomTextWatcher
 import com.samrt.smartsearch.textWatcher.CustomTextWatcherInterFace
+import com.samrt.smartsearch.utils.viewUtitly
 
 
 class SmartSearchInputText @JvmOverloads constructor(
@@ -35,6 +37,10 @@ class SmartSearchInputText @JvmOverloads constructor(
             true
         )
 
+        binding.imageView.setOnClickListener {
+            binding.textView.requestFocus()
+            viewUtitly.showSoftKeyboard(binding.textView)
+        }
 
         binding.textView.addTextChangedListener(CustomTextWatcher(object :
             CustomTextWatcherInterFace {
