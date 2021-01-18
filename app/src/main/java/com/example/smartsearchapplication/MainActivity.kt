@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
                 searchInputResultTV.text = ""
             }
         })
-        
     }
 
     override fun attachBaseContext(newBase: Context) {
