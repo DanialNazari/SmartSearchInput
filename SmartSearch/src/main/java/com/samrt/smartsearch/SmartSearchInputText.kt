@@ -3,6 +3,7 @@ package com.samrt.smartsearch
 import android.content.Context
 import android.text.TextUtils
 import android.util.AttributeSet
+import android.widget.ImageView
 import androidx.appcompat.widget.SearchView
 
 
@@ -31,9 +32,19 @@ class SmartSearchInputText @JvmOverloads constructor(
             }
         })
 
+        this.isFocusable = true;
+
+        this.setOnClickListener {
+            this.setIconifiedByDefault(true);
+            this.setFocusable(true);
+            this.setIconified(false);
+            this.requestFocusFromTouch();
+        }
+
     }
 
     public fun setSearchInputListener(smartSearchInputListener: SmartSearchInputListener) {
         this.smartSearchInputListener = smartSearchInputListener;
     }
+
 }

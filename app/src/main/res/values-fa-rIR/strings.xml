@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Search Application</string>
+    <string name="type_something" >چیزی تایپ کنید</string>
+    <string name="search_input_hint">نتایج جستجوی شما اینجا می آید</string>
+</resources>
